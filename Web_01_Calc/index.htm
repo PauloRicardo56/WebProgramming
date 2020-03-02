@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>Calculadora</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="function.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="javascript/function.js"></script>
 	<h1 align="center">Calculator</h1>
 </head>
 <body>
@@ -11,10 +11,10 @@
 		<input class="textInput" type="number" id="num1">
 		<br><input class="textInput" type="number" id="num2">
 
-		<br><button value="+" onclick="calc(document.getElementById('num1'), document.getElementById('num2'), this.value)" class="button">+</button>
-		<button value="-" onclick="calc(document.getElementById('num1'), document.getElementById('num2'), this.value)" class="button">-</button>
-		<button value="/" onclick="calc(document.getElementById('num1'), document.getElementById('num2'), this.value)" class="button">/</button>
-		<button value="*" onclick="calc(document.getElementById('num1'), document.getElementById('num2'), this.value)" class="button">x</button>
+		<br><button value="+" onclick="calc(this.value)" class="button">+</button>
+		<button value="-" onclick="calc(this.value)" class="button">-</button>
+		<button value="/" onclick="calc(this.value)" class="button">/</button>
+		<button value="*" onclick="calc(this.value)" class="button">x</button>
 		<br><p id="result">Result</p>
 	</div>
 
