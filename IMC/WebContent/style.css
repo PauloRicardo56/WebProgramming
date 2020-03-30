@@ -1,0 +1,24 @@
+.page {
+  background-color: #48B6E8;
+}
+
+.button {
+  width: 106px;
+  height: 25px;
+  background-color: #FFC669
+}
+
+.textField {
+  width: 100px;
+  height: 20px;
+}
+
+#textField1 {
+  margin-left: 11px;
+  margin-bottom: 5px;
+}
+
+#submit {
+  margin-top: 10px;
+  margin-left: 84px;
+}

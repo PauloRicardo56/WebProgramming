@@ -3,10 +3,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="style.css">
 <meta charset="UTF-8">
 <title>Resultado</title>
 </head>
-<body>
+<body class="page">
+
   <%
   Double imc;
   String result;
@@ -23,7 +25,9 @@
   }
   %>
 
-  <h1> <%=imc%> </h1>
-  <h2> <%=result%> </h2>
+  <div align="center">
+    <h1> <%=imc%> </h1>
+    <h2> <%=result%> </h2>
+  </div>
 </body>
 </html>
