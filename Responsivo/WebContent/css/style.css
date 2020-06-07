@@ -1,0 +1,51 @@
+div.divLeft {
+  left: 30px;
+  top: 30px;
+  position: fixed;
+  background-color: red;
+  width: 30%;
+  height: 200px;
+}
+
+div.divMiddle {
+  margin: 30px auto;
+  background-color: green;
+  width: 30%;
+  height: 200px;
+}
+
+div.divRight {
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  background-color: blue;
+  width: 30%;
+  height: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Mobile */
+  div.divLeft {
+    position: static;
+    margin: 20px auto 20px auto;
+    background-color: red;
+    width: 90%;
+    height: 200px;
+  }
+
+  div.divMiddle {
+    position: static;
+    margin: 20px auto 20px auto;
+    background-color: green;
+    width: 90%;
+    height: 200px;
+  }
+
+  div.divRight {
+    position: static;
+    margin: 20px auto 20px auto;
+    background-color: blue;
+    width: 90%;
+    height: 200px;
+  }
+}
